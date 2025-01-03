@@ -1,12 +1,8 @@
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
---------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    --ai skid thì nhớ đổi tên =)
-    --táo hub , aniee hub :>
-    Title = "Thịnh Múp Hub",
-    SubTitle = "Version 1,phê",
+    --ai skid thÃ¬ nhá»› Ä‘á»•i tÃªn =)
+    --tÃ¡o hub , aniee hub :>
+    Title = "Thá»‹nh MÃºp Hub",
+    SubTitle = "Version 1,phÃª",
     TabWidth = 160,
     Size = UDim2.fromOffset(530, 350),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -6271,9 +6267,8 @@ spawn(function()
         elseif not game:GetService("Workspace").Map:FindFirstChild("MysticIsland") or not game:GetService("Workspace").Map:FindFirstChild("MysticIsland") then
             Hop()
             end
-        end
-    end
+         end
+      end
+   end  
 end)
-end
-
------------------------------------------------------------------------------------------------------------------------------------------��
+-----------------------------------------------------------------------------------------------------------------------------------------ýÿ
